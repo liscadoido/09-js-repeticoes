@@ -18,7 +18,7 @@ function Contar(){
             window.alert('Passo invalido ! Considerando PASSO 1');
             Passo = 1;
         }
-        if(1 < Final){
+        if(Inicio < Final){
             // Contagem crescente
             for(let c = Inicio; c <= Final; c += Passo){
                 res.innerHTML += `${c} \u{1F449}`;
