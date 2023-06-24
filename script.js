@@ -11,22 +11,22 @@ function Contar(){
     }
     else{
         res.innerHTML = "Contado: <br>";
-        let inicio = Number(ini.value);
-        let final = Number(fim.value);
-        let passo = Number(passo.value);
-        if(passo <= 0){
+        let Inicio = Number(ini.value);
+        let Final = Number(fim.value);
+        let Passo = Number(passo.value);
+        if(Passo <= 0){
             window.alert('Passo invalido ! Considerando PASSO 1');
-            passo = 1;
+            Passo = 1;
         }
-        if(1 < f){
+        if(1 < Final){
             // Contagem crescente
-            for(let c = inicio; c <= final; c += passo){
+            for(let c = Inicio; c <= Final; c += Passo){
                 res.innerHTML += `${c} \u{1F449}`;
             }
         }
         else{
             // Contagem decrescente
-            for(let c = inicio; c <= final; c -= passo){
+            for(let c = Inicio; c <= Final; c -= Passo){
                 res.innerHTML += `${c} \u{1F449}`;
             }
         }
