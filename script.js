@@ -35,6 +35,7 @@ function Contar(){
     }
 
 }
+
 function tabuada(){
     let num = document.getElementById("txtn");
     let tab = document.getElementById("seltab");
@@ -50,7 +51,6 @@ function tabuada(){
             item.text = `${numero} x ${contagem} = ${numero*contagem}`;
             item.value = `tab${contagem}`
             tab.appendChild(item);
-            c++
+            contagem++
         }
     }
-}
