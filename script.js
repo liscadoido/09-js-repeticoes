@@ -26,7 +26,7 @@ function Contar(){
         }
         else{
             // Contagem decrescente
-            for(let c = inicio; c <= final; c -= P){
+            for(let c = inicio; c <= final; c -= passo){
                 res.innerHTML += `${c} \u{1F449}`;
             }
         }
